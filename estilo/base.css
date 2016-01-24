@@ -1,6 +1,9 @@
-img #img-header {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
+/*tirar margem da header*/
+
+img #img-header{
+	margin: 0px 0px 0px 0px;
+}
+
+nav ul #menu {
+	display: inline;
 }
