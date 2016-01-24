@@ -1,9 +1,16 @@
-/*tirar margem da header*/
+/*1.tirar margem da header
+  2.fazer uma configuracao global para header, 
+  para todas as paginas nao precisarem ter as mesmas configuracoes
+*/
 
 img #img-header{
 	margin: 0px 0px 0px 0px;
 }
 
-nav ul #menu {
+#menu{
+	align:right;
+}
+
+#menu ul li{
 	display: inline;
 }
