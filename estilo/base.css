@@ -1,3 +1,23 @@
-img #img-header {
-	border: 2px solid;
+nav ul.navmenu li{
+	display: inline;
+	list-style: none;
+	font-family: arial;
+	font-size: 12;	
+}
+
+nav{
+	display: block;
+	float: left;
+	border-left: solid;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+nav ul.navmenu li.l1{
+	border-right: 1px solid red;
+}
+
+nav ul.navmenu li.l0{
+	border-right: 1px solid red;
+	border-left: 1px solid red;
 }
