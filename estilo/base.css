@@ -2,15 +2,27 @@
   2.fazer uma configuracao global para header, 
   para todas as paginas nao precisarem ter as mesmas configuracoes
 */
+nav ul.navmenu li{
+	display: inline;
+	list-style: none;
+	font-family: arial;
+	font-size: 12;	
+}
 
-img #img-header{
+nav{
+	display: block;
+	float: left;
+	border-left: solid;
+	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
 }
 
-#menu{
-	align:right;
+
+nav ul.navmenu li.l1{
+	border-right: 1px solid red;
 }
 
-#menu ul li{
-	display: inline;
+nav ul.navmenu li.l0{
+	border-right: 1px solid red;
+	border-left: 1px solid red;
 }
