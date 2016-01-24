@@ -2,21 +2,20 @@
   2.fazer uma configuracao global para header, 
   para todas as paginas nao precisarem ter as mesmas configuracoes
 */
+nav{
+	display: block;
+	float: left;
+	border-left: solid;
+	/*padding: 0px 0px 0px 0px; - n esta funcionando*/
+	/*margin: 0px 0px 0px 0px; - n esta funcionando*/
+}
+
 nav ul.navmenu li{
 	display: inline;
 	list-style: none;
 	font-family: arial;
 	font-size: 12;	
 }
-
-nav{
-	display: block;
-	float: left;
-	border-left: solid;
-	padding: 0px 0px 0px 0px;
-	margin: 0px 0px 0px 0px;
-}
-
 
 nav ul.navmenu li.l1{
 	border-right: 1px solid red;
