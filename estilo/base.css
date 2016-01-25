@@ -52,12 +52,19 @@ div.texto-esquerda #img-wifi{
 
 div.texto-principal{
 	display: block;
+	margin-left: 140px;
+	width: 350px;
 }
 
 div.texto-principal h1{
 		font-family: arial;
-		font-size: 13pt;
+		font-size: 11pt;
 		color: rgb(20,116,189);
+}
+
+div.texto-principal p{
+	font-size: 12px;
+	font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 
