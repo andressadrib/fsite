@@ -29,6 +29,7 @@ nav ul.navmenu li.l0{
 
 div.texto-esquerda {
 	display: block;
+	float:left;
 	margin-top: 50px;
 	width: 100px;
 }
@@ -52,7 +53,7 @@ div.texto-esquerda #img-wifi{
 
 div.texto-principal{
 	display: block;
-	margin-left: 140px;
+	margin-left: 160px;
 	width: 350px;
 }
 
