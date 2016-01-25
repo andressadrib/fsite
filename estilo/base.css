@@ -34,9 +34,23 @@ nav ul.navmenu a{
 	color: rgb(156,150,150);
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 10px;
-	font-family: Verdana;
+	font-size: 11px;
+	font-family: Verdana; /*nao funciona*/
 	transition: color;
+	margin-right: 3px;
+	margin-left: 3px;
+}
+
+/*deve ter um jeito mais inteligente de fazer isso*/
+nav ul.navmenu #selecionado{
+	color: rgb(207,0,0);
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: Verdana; /*nao funciona*/
+	transition: color;
+	margin-right: 3px;
+	margin-left: 3px;
 }
 
 nav ul.navmenu a:hover{
@@ -78,7 +92,8 @@ div.texto-esquerda #img-cotianet{
 
 div.texto-principal{
 	display: block;
-	margin-left: 160px;
+	float:left;
+	margin-left: 100px;
 	width: 350px;
 }
 
@@ -95,8 +110,15 @@ div.texto-principal p{
 
 div.primeira-imagem{
 	display: block;
-	float: right;
-	
+	margin-left: 700px;
+	width: 240px;
+}
+
+div.primeira-imagem{
+	width: 240px;
+	height: 396px;
+	border:solid;
+	border-width: 1px;
 }
 
 
