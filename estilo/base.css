@@ -25,3 +25,21 @@ nav ul.navmenu li.l0{
 	border-right: 1px solid red;
 	border-left: 1px solid red;
 }
+
+div.texto-principal{
+	display: block;
+}
+
+div.texto-principal h1{
+		font-family: arial;
+		font-size: 13pt;
+		color: rgb(20,116,189);
+}
+
+
+
+
+
+
+
+
