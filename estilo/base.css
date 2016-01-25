@@ -25,6 +25,18 @@ nav ul.navmenu li.l0{
 	border-left: 1px solid red;
 }
 
+nav ul.navmenu a{
+	color: rgb(156,150,150);
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 10px;
+	font-family: Verdana;
+	transition: color;
+}
+
+nav ul.navmenu a:hover{
+	color: rgb(20,116,189);
+}
 
 div.texto-esquerda {
 	display: block;
