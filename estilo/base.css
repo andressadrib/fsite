@@ -26,6 +26,30 @@ nav ul.navmenu li.l0{
 	border-left: 1px solid red;
 }
 
+
+div.texto-esquerda {
+	display: block;
+	margin-top: 50px;
+	width: 100px;
+}
+
+div.texto-esquerda h2{
+	font-size:9pt;
+	color: rgb(190,50,50);
+	border-top: solid;
+	border-color: rgb(190,50,50);
+}
+
+div.texto-esquerda p{
+	font-size: 8pt;
+	font-weight: bold;
+}
+
+div.texto-esquerda #img-wifi{
+	width: 100px;
+	height: 90px;
+}
+
 div.texto-principal{
 	display: block;
 }
