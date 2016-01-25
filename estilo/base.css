@@ -4,8 +4,7 @@
 */
 nav{
 	display: block;
-	float: left;
-	border-left: solid;
+	margin-left: -43px;
 	/*padding: 0px 0px 0px 0px; - n esta funcionando*/
 	/*margin: 0px 0px 0px 0px; - n esta funcionando*/
 }
