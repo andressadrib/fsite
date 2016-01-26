@@ -20,7 +20,7 @@
 			<li class="l1"><a href="contato.html">CONTATO</a></li>
 		</ul>
 	</nav>
-	<div class="texto-esquerda">
+	<div class="texto-esquerda-reservas">
 		<h2>EVENTOS</h2>
 		<p>SALÃO PRIVATIVO 
 		 NO PRIMEIRO 
@@ -35,25 +35,25 @@
 	<div class="texto-principal">
 		<h1>Consulte sobre a possibilidade de reserva: </h1>
 
-		<p>Reservas para o mesmo dia somente por telefone: 3288-2573 </p>
-	</div>
-	
-	<div class="texto-principal">
+		<p>Reservas para o mesmo dia somente por telefone: 3288-2573</p>
+		
+		<p class="sem-reserva">Sem reservas para o Dia dos Namorados, estamos trabalhando normalmente pela ordem de chegada.</p>
+		
 		<form>
 			<p>Seu nome:</p>
-			<input type="text">
+			<input type="text" maxlength="40" size="40" placeholder="Escreva aqui seu nome...">
 			<p>Seu email:</p>
-			<input>
+			<input type="email" maxlength="40" size="40" placeholder="Escreva aqui seu email...">
 			<p>Data pretendida</p>
-			<input>
+			<input type="date">
 			<p>Horário previsto de chegada:</p>
-			<input>
+			<input type="time" size="6">
 			<p>Número de pessoas</p>
-			<input type="number" maxlength="2" min="0">
+			<input type="number" size="4" min="1" max="30">
 			<p>Telefone de contato (necessário para confirmação):</p>
-			<input>
+			<input type="tel" placeholder="Escreva aqui seu telefone...">
 			<p>Observações:</p>
-			<input><br/><br/>
+			<textarea cols="50" rows="7" placeholder="Deixe aqui seu comentário..." maxlength="300"></textarea><br/><br/><br/>
 			<input type="button" name="botao-enviar" value="Enviar"/>
 			
 		</form>

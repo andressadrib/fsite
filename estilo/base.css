@@ -1,12 +1,17 @@
-/*1.tirar margem da header
+/*1.tirar margem da header (OK)
   2.fazer uma configuracao global para header, 
   para todas as paginas nao precisarem ter as mesmas configuracoes
 */
+
+
+/*===========Cabeçalho==============*/
 
 header{
 	margin-left: -7px;
 	margin-top: -7px;
 }
+
+/*====Nav-bar (barra de navegação com links)=====*/
 
 nav{
 	display: block;
@@ -17,8 +22,6 @@ nav{
 nav ul.navmenu li{
 	display: inline;
 	list-style: none;
-	font-family: arial;
-	font-size: 12;	
 }
 
 nav ul.navmenu li.l1{
@@ -34,8 +37,8 @@ nav ul.navmenu a{
 	color: rgb(156,150,150);
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 11px;
-	font-family: Verdana; /*nao funciona*/
+	font-size: 10px;
+	font-family: Verdana; /*nao funciona ~> funciona sim, já está em Verdana*/
 	transition: color;
 	margin-right: 3px;
 	margin-left: 3px;
@@ -46,8 +49,8 @@ nav ul.navmenu #selecionado{
 	color: rgb(207,0,0);
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 11px;
-	font-family: Verdana; /*nao funciona*/
+	font-size: 10px;
+	font-family: Verdana; /*nao funciona ~> funciona sim, já está em Verdana, esse trecho é inútil*/
 	transition: color;
 	margin-right: 3px;
 	margin-left: 3px;
@@ -56,6 +59,8 @@ nav ul.navmenu #selecionado{
 nav ul.navmenu a:hover{
 	color: rgb(20,116,189);
 }
+
+/*=========Texto da esquerda===========*/
 
 div.texto-esquerda {
 	display: block;
@@ -90,10 +95,12 @@ div.texto-esquerda #img-cotianet{
 	padding-top: 100px;
 }
 
+/*=====Texto principal (texto central)=====*/
+
 div.texto-principal{
 	display: block;
 	float:left;
-	margin-left: 100px;
+	margin-left: 50px;
 	width: 350px;
 }
 
@@ -108,9 +115,20 @@ div.texto-principal p{
 	font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+div.texto-principal p.sem-reserva{
+	font-family: arial;
+	font-size: 11pt;
+	border: 1px solid rgb(207,0,0);
+	color: rgb(207,0,0);
+	padding: 4px;
+	border-radius: 6px;
+}
+
+/*=====Primeira imagen (Vinho)======*/
+
 div.primeira-imagem{
 	display: block;
-	margin-left: 700px;
+	margin-left: 480px;
 	width: 240px;
 }
 
@@ -119,6 +137,30 @@ div.primeira-imagem{
 	height: 396px;
 	border:solid;
 	border-width: 1px;
+}
+
+/*===Texto da esquerda (página reservas)==*/
+
+div.texto-esquerda-reservas {
+	display: block;
+	float:left;
+	margin-left: -7px;
+	width: 120px;
+}
+
+div.texto-esquerda-reservas h2{
+	font-size: 8pt;
+	font-family: Verdana; /*nao funciona*/
+	color: rgb(207,0,0);
+	border-top: solid;
+	border-color: rgb(207,0,0);
+	border-width: 1px;
+}
+
+div.texto-esquerda-reservas p{
+	font-size: 8pt;
+	font-family: Verdana;/*nao funciona*/
+	font-weight: bold;
 }
 
 
